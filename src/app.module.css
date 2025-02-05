@@ -1,18 +1,18 @@
 .overlay {
-  position: absolute;
-  top: 0;
-  left: -100vw;
-  width: 100vw;
-  height: 100vh;
-  background-color: hsla(0, 0%, 20%, 0.5);
+	position: absolute;
+	top: 0;
+	left: -100vw;
+	width: 100vw;
+	height: 100vh;
+	background-color: hsla(0, 0%, 20%, 0.5);
 
-  transition: transform 1s;
+	transition: transform 1s;
 }
 
 .hidden {
-  display: none;
+	display: none;
 }
 
 .final {
-  transform: translateX(100vw);
+	transform: translateX(100vw);
 }
